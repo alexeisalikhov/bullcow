@@ -4,7 +4,7 @@
 import random
 import sys
 
-#Create a random four unique digit number (list of str).
+#Create a random four unique digits number (list of str).
 number_to_guess = [str(x) for x in random.sample(set(range(10)), 4)]
 game = True #Boolean for the while loop
 
@@ -34,7 +34,7 @@ def check_guess(guess):
 
 def main():
     #print(number_to_guess) for debuggung
-    print("Guess a four unique digit number!\n"
+    print("Guess a four unique digits number!\n"
             "'Bull' is the right digit at the right position.\n"
             "'Cow' is the right digit at a wrong position.\n"
             "Example: if the number is 1234 and your guess is 5304, then..\n"
